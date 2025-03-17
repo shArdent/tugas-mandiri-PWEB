@@ -11,6 +11,8 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="(min-width: 0px) and (max-width: 767px)">
+    <link rel="stylesheet" href="tablet.css" media="(min-width: 768px) and (max-width: 1024px)">
 </head>
 
 <body>
@@ -26,6 +28,11 @@
             <li class="navbar-li"><a href="#project">Project</a></li>
             <li class="navbar-li"><a href="#contact">Contact</a></li>
         </ol>
+        <div class="burger-menu" hidden>
+            <div class="burger"></div>
+            <div class="burger"></div>
+            <div class="burger"></div>
+        </div>
     </nav>
     <main id="home">
         <section class="hero">
@@ -59,7 +66,7 @@
         </section>
 
         <section class="container" id="skill">
-            <h2 class="subtitle">skill</h2>
+            <h2 class="subtitle">SKILL</h2>
             <div class="subcontainer">
                 <div class="skill-card">
                     <img src="assets/html.svg" alt="" height="85px" />
@@ -201,7 +208,7 @@
     <footer>
         <h1>Diva <br> Marshelano</h1>
         <div class="socmed">
-            <i><img class="github" src="assets/github.png" alt="" width="45px"></i>
+            <i><img id="github" src="assets/github.png" alt="" width="45px"></i>
             <i><img src="assets/linkedin.png" alt="" width="45px"></i>
             <i><img src="assets/instagram.png" alt="" width="45px"></i>
             <i><img src="assets/facebook.png" alt="" width="45px"></i>
