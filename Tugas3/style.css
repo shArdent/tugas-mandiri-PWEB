@@ -93,6 +93,7 @@ p {
     gap: 42px;
     flex-direction: column;
     justify-content: space-between;
+    align-items:start;
     max-width: 50%;
 }
 
